@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VibeTrend AI — Контент-стратегия</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-main: #F0F2F5;
+            --brand-dark: #10141A;
+            --brand-blue: #83A2DB;
+            --brand-red: #CE6969;
+        }
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            color: var(--brand-dark);
+            overflow-x: hidden;
+            min-height: 100vh;
+            /* Mesh Gradient Background */
+            background-color: #F0F2F5;
+            background-image: 
+                radial-gradient(at 0% 0%, rgba(131, 162, 219, 0.15) 0px, transparent 50%),
+                radial-gradient(at 100% 0%, rgba(206, 105, 105, 0.12) 0px, transparent 50%),
+                radial-gradient(at 100% 100%, rgba(131, 162, 219, 0.1) 0px, transparent 50%),
+                radial-gradient(at 0% 100%, rgba(206, 105, 105, 0.08) 0px, transparent 50%),
+                radial-gradient(at 50% 50%, rgba(255, 255, 255, 0.5) 0px, transparent 80%);
+            background-attachment: fixed;
+        }
+        .soft-shadow {
+            box-shadow: 0 20px 50px rgba(0,0,0,0.04);
+        }
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 4px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: rgba(0,0,0,0.1);
+            border-radius: 10px;
+        }
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.45);
+            backdrop-filter: blur(40px);
+            -webkit-backdrop-filter: blur(40px);
+            border: 1px solid rgba(255, 255, 255, 0.6);
+            box-shadow: 0 10px 30px -10px rgba(0,0,0,0.05);
+        }
+        /* Дополнительный лоск для карточек */
+        .card-glass {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 1);
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://esm.sh/@google/genai@^1.37.0",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
+  }
+}
+</script>
+</head>
+<body>
+    <div id="root"></div>
+</body>
+</html>

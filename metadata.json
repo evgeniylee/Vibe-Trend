@@ -1,0 +1,7 @@
+{
+  "name": "Copy of VibeTrend AI",
+  "description": "Premium SaaS platform for discovering and analyzing short-form video trends for Instagram Reels and TikTok, with AI-powered script generation.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
